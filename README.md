@@ -4,7 +4,7 @@ Able to receive and parse messages from Log.io harvester.
 
 ## Installation
 
-npm install logio-server-parser
+npm install log.io-server-parser
 
 ## Usage
 
