@@ -11,6 +11,7 @@ npm install log.io-server-parser
 ## Usage
 
 ```javascript
+var LogIoServerParser = require('log.io-server-parser');
 
 var server = new LogIoServerParser({
   port: 28777

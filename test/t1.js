@@ -1,4 +1,4 @@
-var LogIoServerParser = require('../lib/logio-server-parser.js');
+var LogIoServerParser = require('../index.js');
 
 var lines = '+log|my_stream|my_node|info|this is log message\r\n' +
   '+node|my_node\r\n' +
