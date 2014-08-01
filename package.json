@@ -1,6 +1,6 @@
 {
   "name": "log.io-server-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Able to receive and parse messages from Log.io harvester.",
   "main": "index.js",
   "scripts": {
