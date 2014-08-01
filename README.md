@@ -28,7 +28,7 @@ server.on('-node', function (node) {
 });
 
 server.on('+log', function (stream, node, type, log) {
-  console.log('-log', stream, node, type, log);
+  console.log('+log', stream, node, type, log);
 });
 
 server.on('unknown', function (data) {
