@@ -17,7 +17,9 @@ var server = new LogIoServerParser({
   port: 28777
 });
 
-server.listen();
+server.listen(function () {
+  console.log('listening');
+});
 
 server.on('+node', function (node, streams) {
   console.log('+node', node, streams);
@@ -35,4 +37,8 @@ server.on('unknown', function (data) {
   console.log('unknown', data);
 });
 
+// receive all event as raw data
+server.on('raw', function (data) {
+  console.log(data);
+});
 ```
