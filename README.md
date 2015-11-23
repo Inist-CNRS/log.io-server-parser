@@ -1,6 +1,7 @@
 # log.io-server-parser
 
 Able to receive and parse messages from Log.io harvester.
+A common use case is to build a proxy between log.io-harvester and log.io-server.
 
 ## Installation
 
